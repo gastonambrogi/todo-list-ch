@@ -4,7 +4,8 @@
   "description": "todo-list for technical interview exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start server.js"
   },
   "author": "Gastón Ambrogi",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.0"
+  },
+  "dependencies": {
+    "pm2": "^4.1.2"
   }
 }
