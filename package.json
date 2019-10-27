@@ -21,6 +21,7 @@
     "gulp-useref": "^4.0.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "pm2": "^4.1.2"
   }
 }
